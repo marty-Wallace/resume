@@ -32,13 +32,13 @@
         </div>
 
         <div class="executive-summary no-print" itemprop="description">
-          <p>My name is Martin Wallace and I am currently a Computer Science student at Okanagan College and a Software Developer for SureFire Solutions. I am very passionate about Computer Science and I love to solve puzzles.</p>
+          <p>My name is Martin Wallace and I am currently a student and a researcher at the Computer Science department of Okanagan College, a Software Developer for SureFire Solutions. I am very passionate about Computer Science I love programming and solving puzzles.</p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+            <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
         {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
+            <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
         {% endif %}
 
