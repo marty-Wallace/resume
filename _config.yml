@@ -1,4 +1,7 @@
 # Site settings
+url: https://resume.mvw.io   # with the https protocol
+enforce_ssl: resume.mvw.io   # without any protocol
+
 title: "Resume | Martin Wallace"
 description: "A resume template for Martin Wallace."
 
