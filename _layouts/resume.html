@@ -52,21 +52,7 @@
           <h2>Experience</h2>
         </header>
 
-        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
-
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Okanagan College</h3>
-          <h4 class="resume-item-details" itemprop="description">Research Team Lead &bull; March 2017 &mdash; Present</h4>
-          <p class="resume-item-copy">Performing research in the area of automatic generation of 3D building models from 2D bulding footprints.</p>
-          <ul class="resume-item-list">
-            <li>Designing plugin for GIS software to automatically generate 3D building models</li>
-            <li>Procedural generation of models in various CG scripting languages</li>
-          </ul>
-          <!-- <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p> -->
-
-        </div><!-- end of resume-item -->
-
-
+        
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">Surefire Solutions</h3>
           <h4 class="resume-item-details" itemprop="description">Software Developer &bull; March 2016 &mdash; Present</h4>
@@ -78,6 +64,18 @@
             <li>Assist in database design decisions and refactoring</li>
           </ul>
         </div><!-- end of resume-item -->
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Okanagan College</h3>
+          <h4 class="resume-item-details" itemprop="description">Research Team Lead &bull; March 2017 &mdash; August 2017</h4>
+          <p class="resume-item-copy">Performing research in the area of automatic generation of 3D building models from 2D bulding footprints.</p>
+          <ul class="resume-item-list">
+            <li>Designing plugin for GIS software to automatically generate 3D building models</li>
+            <li>Procedural generation of models in various CG scripting languages</li>
+          </ul>
+
+        </div><!-- end of resume-item -->
+
 
         <!-- another resume item -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
@@ -128,7 +126,7 @@
       <!-- end Education -->
       {% endif %}
 
-      <!--       {% if site.resume_section_projects %}
+      {% if site.resume_section_projects %}
       <section class="content-section">
 
         <header class="section-header">
@@ -149,7 +147,7 @@
 
       </section>
       {% endif %}
- -->
+
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
@@ -168,15 +166,13 @@
           </ul>
           <h4 class="resume-item-details">Pretty Comfortable</h4>
           <ul class="resume-item-list">
-            <li>Php</li>
             <li>Javascript</li>
+            <li>Rust</li>
           </ul>
           <h4 class="resume-item-details">Have worked with</h4>
           <ul class="resume-item-list">
             <li>C/C++</li>
-            <li>Rust</li>
-            <li>Android</li>
-            <li>MySQL</li>
+            <li>Php</li>
           </ul>
         </div>
       </section>
@@ -192,6 +188,12 @@
         </header>
 
         <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="award">2017 IEEE eXtreme 24 Hour Programming Challenge</h3>
+          <h4 class="resume-item-details">Top 200 globally out of more than 3000 teams</h4>
+        </div>
+
+
+        <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">2016 IEEE eXtreme 24 Hour Programming Challenge</h3>
           <h4 class="resume-item-details">2nd place in Canada out of 76 teams. 126 worldwide out of over 2500 teams.</h4>
           <p class="resume-item-copy">Achieved 2nd place in Canada at the 2016 eXtreme Programming Challenge (We also stayed awake the full 24 hours by eating hot pepper jelly). </p>
@@ -199,7 +201,7 @@
 
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">Deans List </h3>
-          <h4 class="resume-item-details">Fall 2016, Winter 2016, Fall 2015</h4>
+          <h4 class="resume-item-details">Fall 2017, Winter 2017,Fall 2016, Winter 2016, Fall 2015</h4>
           <p class="resume-item-copy">Awarded each semester to students with an overall average over 85%</p>
         </div>
 
